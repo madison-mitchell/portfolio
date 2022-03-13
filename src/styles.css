@@ -1,0 +1,111 @@
+
+* {
+    margin: 0;
+}
+
+#wrapper {
+    width: 1024px;
+    padding: 10px 0;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    /* height: 50px; */
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-around;
+    margin: auto 0;
+}
+
+.nav-link {
+    padding: 10px 25px;
+}
+
+.about-me-container-left {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    column-gap: 30px;
+    grid-template-areas:
+        "photo header";
+}
+
+.about-me-container-right {
+    display: grid;
+    grid-template-columns: 1fr 300px;
+    column-gap: 30px;
+    grid-template-areas:
+        "photo header";
+}
+
+.height-600 {
+    height: 600px;
+}
+
+.height-100p {
+    height: 100%;
+}
+
+.photo {
+    grid-area: "photo";
+    height: 100%;
+}
+
+.photo-img {
+    max-width: 300px;
+}
+
+.icon-img {
+    width: 270px;
+}
+
+.name {
+    font-size: 45pt;
+}
+
+.title {
+    font-size: 35pt;
+}
+
+.sub-heading-2 {
+    font-size: small;
+}
+
+.sub-heading {
+    font-size: x-large;
+    height: 65px;
+    padding: 15px 0 0 0;
+}
+
+.font-cursive {
+    font-family: 'Dancing Script', cursive;
+}
+
+
+/* TEXT ALIGNMENT STYLING BELOW */
+
+.html-text {
+    display: block;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    font-size: small;
+}
+
+.align-left {
+    text-align: left;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.align-top {
+    display: inline-block;
+    align-self: flex-start;
+}
+
+.align-bottom {
+    display: inline-block;
+    align-self: flex-end;
+}

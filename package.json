@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "autoprefixer": "^10.4.2",
+    "parcel": "^2.3.2",
+    "postcss": "^8.4.8",
+    "tailwindcss": "^3.0.23",
+    "video.js": "^7.18.1"
+  }
+}
