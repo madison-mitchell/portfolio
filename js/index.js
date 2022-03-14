@@ -1,4 +1,4 @@
-import 'animate.css';
+// import 'animate.css';
 import Home from "./components/Home.js";
 import About from "./components/About.js";
 import Contact from "./components/Contact.js";
