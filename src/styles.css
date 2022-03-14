@@ -37,6 +37,22 @@ nav {
     grid-template-columns: 1fr 300px;
     column-gap: 30px;
     grid-template-areas:
+    "photo header";
+}
+
+.project-container-left {
+    display: grid;
+    grid-template-columns: 600px 1fr;
+    /* column-gap: 30px; */
+    grid-template-areas:
+        "photo header";
+}
+
+.project-container-right {
+    display: grid;
+    grid-template-columns: 1fr 600px;
+    /* column-gap: 30px; */
+    grid-template-areas:
         "photo header";
 }
 
@@ -55,6 +71,10 @@ nav {
 
 .photo-img {
     max-width: 300px;
+}
+
+.website-img {
+    max-width: 570px;
 }
 
 .icon-img {
