@@ -10,7 +10,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Permanent+Marker&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;1,100;1,200;1,300&display=swap"
         rel="stylesheet">
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link href="./index.css" rel="stylesheet">
     <link rel="stylesheet" href="/src/styles.css">
     <script src="https://kit.fontawesome.com/9f96bd1e30.js" crossorigin="anonymous"></script>
@@ -18,39 +18,69 @@
 </head>
 
 <body class="bg-gradient-to-r from-cyan-500 to-blue-500 font-sans">
+    <div class="ml-4 mt-4">
+        <span class="html-text ml-4 text-cyan-400">&lt;html&gt;</span>
+
+        <div class="ml-8">
+            <span class="html-text text-cyan-400">&lt;body&gt;</span>
+        </div>
+    </div>
     <div id="wrapper">
 
-        <div class="nav-wrapper flex justify-end animate__animated animate__fadeInDown animate__delay-3s">
-            <nav class="border-solid border-2 border-blue-500 p-2 rounded-lg bg-gradient-to-r from-sky-500 to-blue-500">
+        <div class="nav-wrapper flex justify-end animate__animated animate__fadeInDown animate__delay-2s">
+            <nav class="border-solid border-2 border-blue-500 p-2 rounded-lg bg-gradient-to-r from-sky-200 to-blue-200">
                 <span class="html-text align-left align-top text-sky-300">&lt;nav&gt;</span>
-                <div class="nav-bar text-sky-50">
-                    <a class="home nav-link cursor-pointer">Home</a>
-                    <a class="projects nav-link cursor-pointer">Projects</a>
-                    <a class="contact nav-link cursor-pointer">Contact</a>
+                <div class="nav-bar text-gray-900">
+                    <a
+                        class="home nav-link cursor-pointer hover:text-cyan-500 active:text-cyan-700 rounded-lg ml-2">Home</a>
+                    <a
+                        class="about nav-link cursor-pointer hover:text-sky-500 active:text-sky-700 rounded-lg mx-2">About</a>
+                    <a
+                        class="projects nav-link cursor-pointer hover:text-blue-500 active:text-blue-700 rounded-lg mx-2">Projects</a>
+                    <a
+                        class="contact nav-link cursor-pointer hover:text-indigo-500 active:text-indigo-700 rounded-lg mx-2">Contact</a>
                 </div>
-                <span class="html-text align-right align-bottom text-sky-300">&lt;/nav&gt;</span>
+                <span class="html-text align-right align-bottom text-blue-300">&lt;/nav&gt;</span>
             </nav>
         </div>
 
         <div id="app"></div>
 
 
-        <div id="footer" class="nav-wrapper flex justify-start animate__animated animate__fadeInUp animate__delay-3s">
-            <nav class="border-solid border-2 border-cyan-500 p-2 rounded-lg bg-gradient-to-r from-cyan-500 to-sky-500">
+        <div id="footer" class="nav-wrapper flex justify-start animate__animated animate__fadeInUp animate__delay-2s">
+            <nav class="border-solid border-2 border-cyan-500 p-2 rounded-lg bg-gradient-to-r from-cyan-200 to-sky-200">
                 <span class="html-text align-left align-top text-sky-300">&lt;footer&gt;</span>
-                <div class="nav-bar text-sky-50">
-                    <a class="nav-link cursor-pointer" href="http://github.com/madison-mitchell" target="_blank"><i
+                <div class="nav-bar">
+                    <a class="nav-link cursor-pointer text-gray-900 hover:text-cyan-500 active:text-cyan-700"
+                        href="http://github.com/madison-mitchell" target="_blank"><i
                             class="fa-brands fa-github"></i></a>
-                    <a class="nav-link cursor-pointer" href="mailto:madisonrmitchell@icloud.com" target="_blank"><i
+                    <a class="nav-link cursor-pointer text-gray-900 hover:text-sky-500 active:text-sky-700"
+                        href="mailto:madisonrmitchell@icloud.com" target="_blank"><i
                             class="fa-solid fa-envelope"></i></a>
-                    <a class="nav-link cursor-pointer" href="http://www.linkedin.com/in/madison-r-mitchell" target="_blank"><i
+                    <a class="nav-link cursor-pointer text-gray-900 hover:text-blue-500 active:text-blue-700"
+                        href="http://www.linkedin.com/in/madison-r-mitchell" target="_blank"><i
                             class="fa-brands fa-linkedin-in"></i></a>
+                    <a class="nav-link cursor-pointer text-gray-900 hover:text-indigo-500 active:text-indigo-700"
+                        href="https://www.madisonmitchellphotography.com" target="_blank"><i
+                            class="fa-solid fa-camera"></i></a>
+                    <span class="mt-.5 text-3xl font-thin ml-4 mr-2">|</span>
+                    <i
+                        class="fa-solid fa-hand-point-up cursor-pointer text-gray-900 hover:text-gray-400 active:text-gray-600 mt-3.5 px-6"></i>
                 </div>
                 <span class="html-text align-right align-bottom text-sky-300">&lt;/footer&gt;</span>
             </nav>
         </div>
     </div>
 
+    <div class="relative flex justify-end">
+        <div class="flex flex-col mr-4">
+            <span class="html-text text-blue-400">&lt;/body&gt;</span>
+
+            <div class="ml-8">
+                <span class="html-text text-blue-400">&lt;/html&gt;</span>
+            </div>
+        </div>
+    </div>
 
     <script src="./js/index.js" type="module"></script>
     <script src="https://vjs.zencdn.net/7.18.1/video.min.js"></script>
