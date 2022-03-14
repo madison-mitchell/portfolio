@@ -1,9 +1,9 @@
-import madison from "../../images/MadisonHeadShot.jpeg"
-import madisonMemoji from "../../images/madison-memoji.png"
-import madisonMemojiPhone from "../../images/madison-memoji-phone.png"
-import madisonMemojiLaptop from "../../images/madison-memoji-laptop.png"
-import laptop from "../../images/laptop-code.png"
-import phone from "../../images/phone-hand.png"
+import madison from "../assets/MadisonHeadShot.jpeg"
+import madisonMemoji from "../assets/madison-memoji.png"
+import madisonMemojiPhone from "../assets/madison-memoji-phone.png"
+import madisonMemojiLaptop from "../assets/madison-memoji-laptop.png"
+import laptop from "../assets/laptop-code.png"
+import phone from "../assets/phone-hand.png"
 
 export default function Home() {
     return `

@@ -1,4 +1,4 @@
-import ohioansCare from "../../images/ohioansCare.png"
+import ohioansCare from "../assets/ohioansCare.png"
 
 export default function Projects() {
     return `

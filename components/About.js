@@ -1,6 +1,6 @@
-import madison from "../../images/MadisonHeadShot.jpeg"
-import resume from "../../images/resume.jpg"
-import laptop from "../../images/laptop-code.png"
+import madison from "../assets/MadisonHeadShot.jpeg"
+import resume from "../assets/resume.jpg"
+import laptop from "../assets/laptop-code.png"
 
 export default function About() {
     return `
