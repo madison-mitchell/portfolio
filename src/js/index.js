@@ -1,7 +1,8 @@
 // import 'animate.css';
 import Home from "./components/Home.js";
 import About from "./components/About.js";
-import Resume from "./components/Resume.js";
+import Contact from "./components/Contact.js";
+import Projects from "./components/Projects.js";
 
 const app = document.getElementById("app");
 
@@ -9,19 +10,16 @@ buildPage();
 
 function buildPage() {
     renderHome();
-
 }
 
 function renderHome() {
     app.innerHTML = Home();
     
-    navBtns()
-    clickFadeOut()
-}
-
-function navBtns() {
     navHome();
-    navResume();
+    navContact();
+    navAbout();
+    navProjects();
+    clickFadeOut()
 }
 
 function navHome() {
@@ -30,24 +28,34 @@ function navHome() {
     homeNavBtn.addEventListener("click", () => {
         app.innerHTML = Home();
 
-        navBtns()
-    });
-}
-
-function navResume() {
-    const resumeNavBtn = document.querySelector(".resume");
-
-    resumeNavBtn.addEventListener("click", () => {
-        app.innerHTML = Resume();
+        navAbout();
+        navProjects();
+        navContact();
     });
 }
 
 function navAbout() {
-    const aboutElem = document.querySelector(".about-madison");
+    const aboutElem = document.getElementById("madison");
     
     aboutElem.addEventListener("click", () => {
         console.log("hi")
         app.innerHTML = About();
+    });
+}
+
+function navProjects() {
+    const projectsElem = document.getElementById("projects")
+    
+    projectsElem.addEventListener("click", () => {
+        app.innerHTML = Projects();
+    });
+}
+
+function navContact() {
+    const contactNavBtn = document.querySelector(".contact");
+
+    contactNavBtn.addEventListener("click", () => {
+        app.innerHTML = Contact();
     });
 }
 

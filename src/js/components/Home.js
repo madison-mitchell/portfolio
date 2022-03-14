@@ -32,7 +32,7 @@ export default function Home() {
         </div>
     </div>
 
-    <div id="projects" class="projects header-wrapper border-solid border-2 border-blue-500 rounded-3xl my-5 animate__animated animate__bounceInDown animate__delay-1s bg-gradient-to-r from-cyan-600 to-blue-600">
+    <div id="projects" class="projects header-wrapper border-solid border-2 border-blue-500 rounded-3xl my-5 animate__animated animate__bounceInDown animate__delay-1s bg-gradient-to-r from-cyan-600 to-blue-600 cursor-pointer">
         <div class="about-me-container-right rounded-3xl h-96">
             <div class="header-grid m-auto flex flex-col">
                 <div class="header justify-center flex">
@@ -61,7 +61,7 @@ export default function Home() {
         </div>
     </div>
 
-    <div id="contact" class="contact header-wrapper border-solid border-2 border-cyan-500 rounded-3xl my-5 animate__animated animate__bounceInDown animate__delay-2s bg-gradient-to-r from-cyan-600 to-blue-600">
+    <div id="contact" class="contact header-wrapper border-solid border-2 border-cyan-500 rounded-3xl my-5 animate__animated animate__bounceInDown animate__delay-2s bg-gradient-to-r from-cyan-600 to-blue-600 cursor-pointer">
         <div class="about-me-container-left rounded-3xl">
             <div class="photo rounded-3xl justify-around flex"><img src="${madisonMemojiPhone}"
                     alt="Contact" class="icon-img rounded-3xl m-auto">
